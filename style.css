@@ -134,8 +134,8 @@ a {
 
  /* 커스텀 */
 html {
-  background-color: #0D0D0D;
-  color: #fff;
+  background-color: #FFF;
+  color: #000;
   font-family: 'Pretendard';
 }
   
@@ -281,6 +281,7 @@ body::-webkit-scrollbar-track {
 .overv_text-wrap {
   flex-direction: column;
   gap: 28px;
+  text-align: right;
 }
 
 .overv_text-wrap .overview-text {
@@ -290,7 +291,7 @@ body::-webkit-scrollbar-track {
 
 .overv_text-wrap .overv_text-box {
   flex-direction: column;
-  gap: 14px;
+  gap: 14px;  
 }
 
 .overv_text-wrap .overv_text-box h1 {
@@ -315,7 +316,7 @@ body::-webkit-scrollbar-track {
 /* <!-- Background --> */
 .Background {
   box-sizing: border-box;
-  padding: 134px 588px;
+  padding: 134px 544px;
   background-image: url(./imgs/background.png);
 }
 
@@ -335,6 +336,7 @@ body::-webkit-scrollbar-track {
 .backg_text-box h1 {
   font-size: 22px;
   font-weight: 500;
+  color: #fff;
 }
 
 .backg_text-box p {
@@ -401,8 +403,8 @@ body::-webkit-scrollbar-track {
 
 .usab_content .as-is .as-is_item {
   padding: 79px 22px;
-  background-color: #1a1a1a;
-  color: #7c7c7c;
+  background-color: #F5F5F5;
+  color: #C8C8C8;
   text-align: center;
   width: 532px;
   height: 224px;
@@ -436,7 +438,7 @@ body::-webkit-scrollbar-track {
   padding: 79px 22px;
   text-align: center;
   border: 2px solid #808080;
-  box-shadow: 0 0 18px rgba(255, 255, 255, .75);
+  box-shadow: 0 0 18px rgba(135, 135, 135, .75);
   width: 532px;
   height: 224px;
   box-sizing: border-box;
@@ -460,7 +462,6 @@ body::-webkit-scrollbar-track {
   right: 20px;
   top: -200px;
   z-index: -1;
-  transform: rotate(15deg);
 }
 
 .usab_icon-2 {
@@ -529,7 +530,7 @@ body::-webkit-scrollbar-track {
   width: 255px;
   height: 255px;
   border-radius: 500px;
-  background-color: #000;
+  background-color: #EFEFEF;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -548,7 +549,7 @@ body::-webkit-scrollbar-track {
   width: 265px;
   height: 265px;
   border-radius: 500px;
-  background-color: #fff;
+  background-color: #0D0D0D;
   justify-content: center;
   align-items: center;
 }
@@ -558,7 +559,7 @@ body::-webkit-scrollbar-track {
   font-weight: 600;
   line-height: 27px;
   text-align: center;
-  color: #0D0D0D;
+  color: #fff;
   transform: translateY(100%);
   opacity: 0;
 }
@@ -568,10 +569,10 @@ body::-webkit-scrollbar-track {
   width: 298px;
   height: 298px;
   border-radius: 500px;
-  background-color: rgba(126, 126, 126, .5);
+  background-color: rgba(245, 245, 245, .5);
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(255, 255, 255, .5);
+  border: 2px solid rgba(0, 0, 0, .5);
 }
 
 .Circle-box .Circle-3 span {
@@ -581,6 +582,7 @@ body::-webkit-scrollbar-track {
   text-align: center;
   transform: translateY(100%);
   opacity: 0;
+  color: #000;
 }
 
 .de-cent_text {
@@ -616,13 +618,14 @@ body::-webkit-scrollbar-track {
 /* <!-- Design System --> */
 .de-sys_wrap {
   overflow: hidden;
+  color: #fff;
 }
 .typeface {
   background-image: url(./imgs/de-system_1.png);
   box-sizing: border-box;
   padding: 114px 108px;
   flex-direction: column;
-  gap: 306px;
+  gap: 326px;
   height: 1080px;
 }
 
@@ -633,7 +636,7 @@ body::-webkit-scrollbar-track {
 
 .typeface .de-sys-item {
   flex-direction: column;
-  gap: 234px;
+  gap: 294px;
 
 }
 
@@ -644,8 +647,7 @@ body::-webkit-scrollbar-track {
 
 .typeface .de-sys-item h1 {
   font-size: 48px;
-  font-weight: 500;
-  font-family: 'SONGERGrotesque-Medium';
+  font-weight: 700;
   text-align: center;
   transform: translateY(100%);
   opacity: 0;
@@ -668,17 +670,17 @@ body::-webkit-scrollbar-track {
 
 .typeface .de-sys-item .SONGER {
   color: #fff;
-  font-family: 'SONGERGrotesque-Medium';
+  font-weight: 700;
 }
 
 .typeface .de-sys-item .Racing {
-  font-family: "Racing Sans One", sans-serif;
   color: #B7B7B7;
+  font-weight: 400;
 }
 
 .typeface .de-sys-item .Pretendad {
   color: #B7B7B7;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 .color {
@@ -693,8 +695,7 @@ body::-webkit-scrollbar-track {
 
 .color .color-text {
   font-size: 48px;
-  font-weight: 500;
-  font-family: 'SONGERGrotesque-Medium';
+  font-weight: 700;
   text-align: center;
   transform: translateY(100%);
   opacity: 0;
@@ -774,8 +775,7 @@ body::-webkit-scrollbar-track {
 
 .de-outp_text-box h5 {
   font-size: 20px;
-  font-weight: 500;
-  font-family: 'SONGERGrotesque-Medium';
+  font-weight: 700;
 }
 
 .de_text-box {
@@ -886,7 +886,7 @@ body::-webkit-scrollbar-track {
 
 .de-outp_btn-box {
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 170px;
 }
 
 .de-outp_btn {
@@ -895,26 +895,28 @@ body::-webkit-scrollbar-track {
   border-radius: 500px;
   background-color: #fff;
   flex-direction: column;
-  color: #0D0D0D;
+  color: #000;
+  border: 1px solid #555555;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0px 0px rgba(85, 85, 85, 0.5);
   border-radius: 50%;
   animation-name: wave;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  gap: 24px;
 }
 
 
 @keyframes wave {
-  0% {box-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.5);}
+  0% {box-shadow: 0 0 0px 0px rgba(85, 85, 85, 0.5);}
   100% {box-shadow: 0 0 0px 20px rgba(255, 255, 255, 0);}
 }
 
 .de-outp_btn h1 {
-  font-size: 90px;
-  font-family: 'SONGERGrotesque-Medium';
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .de-outp_btn span {
@@ -931,6 +933,10 @@ body::-webkit-scrollbar-track {
   width: 100%;
   height: 1px;
   background-color: #0D0D0D;
+}
+
+.Design-Output IMG {
+  border: 1px solid #F5F5F5;
 }
 /* <!-- Design Output --> */
 
